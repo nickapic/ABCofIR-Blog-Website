@@ -24,6 +24,7 @@ class BlogPostTemplate extends React.Component {
               style={{
                 marginTop: rhythm(1),
                 marginBottom: 0,
+                fontFamily: `Montserrat, sans-serif`,
               }}
             >
               {post.frontmatter.title}
@@ -33,13 +34,14 @@ class BlogPostTemplate extends React.Component {
                 ...scale(-1 / 5),
                 display: `block`,
                 marginBottom: rhythm(1),
+                fontFamily: `Montserrat, sans-serif`,
               }}
             >
               {post.frontmatter.date}
             </p>
             <p
               style={{
-                
+                fontFamily: `Montserrat, sans-serif`,
                 display: `block`,
                 marginBottom: '1rem',
               }}
@@ -51,10 +53,11 @@ class BlogPostTemplate extends React.Component {
           <hr
             style={{
               marginBottom: rhythm(1),
+              
             }}
           />
          
-        </article>
+        </article >
 
         <nav>
           <ul

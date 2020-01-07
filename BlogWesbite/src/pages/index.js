@@ -2,6 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 
 
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
@@ -24,9 +25,12 @@ class BlogIndex extends React.Component {
                 <h3
                   style={{
                     marginBottom: rhythm(1 / 4),
+                    fontFamily: `Montserrat, sans-serif`,
                   }}
                 >
-                  <Link style={{ boxShadow: `none` }} to={node.fields.slug}>
+                    
+                    
+                  <Link style={{ boxShadow: `none`  ,color:"black"}} to={node.fields.slug}>
                     {title}
                   </Link>
                 </h3>
