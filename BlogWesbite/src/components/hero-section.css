@@ -10,9 +10,10 @@
 }
 
 .image-box{
-    height: 50rem;
-    width: 30%;
-    
+    height: 60rem;
+    width: 40rem;
+    margin-right: 15rem;   
+    margin-bottom: 5rem;
 }
 
 h1{
@@ -36,7 +37,17 @@ h1{
     letter-spacing: 3px;
 }
 .heroimg{
-    width: 50rem;
+    width: 100%;
     height: 100%;
-
+}
+.paragraph{
+    width:50%;
+    margin-top: 2rem;
+    font-size: 1.7rem;
+}
+.read-more{
+    font-size: 1.7rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: black;
 }

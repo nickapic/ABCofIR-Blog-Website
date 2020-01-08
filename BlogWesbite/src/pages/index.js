@@ -6,7 +6,6 @@ import '../style.css'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm } from "../utils/typography"
 import HeroSection from "../components/hero-section"
 
 class BlogIndex extends React.Component {
@@ -20,10 +19,14 @@ class BlogIndex extends React.Component {
         <SEO title="All posts" />
         
         <HeroSection/>
-
+        <hr style= {{
+          margin: `4rem 0`
+        }}></hr>
+        <span className='blog-label'>Blogs</span>
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
+            
             <div className='blog-card-box'>
               <article className='blog-card' key={node.fields.slug}>
                 <header>
@@ -58,6 +61,7 @@ class BlogIndex extends React.Component {
                       __html: node.frontmatter.description || node.excerpt,
                     }}
                   />
+                  <Link className='read-more white' to={node.fields.slug}>Read more</Link>
                 </section>
               </article>
             </div>

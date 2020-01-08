@@ -3,7 +3,7 @@ import { Link, graphql } from "gatsby"
 import '../style.css'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import { rhythm, scale } from "../utils/typography"
+
 
 class BlogPostTemplate extends React.Component {
   render() {
@@ -50,8 +50,7 @@ class BlogPostTemplate extends React.Component {
           <section className='main-post' dangerouslySetInnerHTML={{ __html: post.html }} />
           <hr
             style={{
-              marginBottom: rhythm(1),
-              
+              marginBottom: `5rem`
             }}
           />
          
@@ -69,14 +68,14 @@ class BlogPostTemplate extends React.Component {
           >
             <li>
               {previous && (
-                <Link to={previous.fields.slug} rel="prev">
+                <Link to={previous.fields.slug} rel="prev" className='black'>
                   ← {previous.frontmatter.title}
                 </Link>
               )}
             </li>
             <li>
               {next && (
-                <Link to={next.fields.slug} rel="next">
+                <Link to={next.fields.slug} rel="next" className='black'>
                   {next.frontmatter.title} →
                 </Link>
               )}

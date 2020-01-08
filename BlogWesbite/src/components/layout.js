@@ -46,6 +46,10 @@ class Layout extends React.Component {
       )
     } else {
       header = (
+        <div style={{
+          display:`flex`,
+
+        }}> 
         <h3
           style={{
             marginTop: 0,
@@ -63,23 +67,19 @@ class Layout extends React.Component {
             {title}
           </Link>
         </h3>
+        </div>
       )
     }
     return (
-      <div
-        style={{
-          marginLeft: `15rem`,
-          marginRight: `3rem`,
-          maxWidth:  `90%`,
-          padding: `2rem 5rem `,
-        }}
+      <div className='layout'
+        
       >
         <header>{header}</header>
         <main>{children}</main>
-        <footer>
+        <footer className='margin-top'>
           © {new Date().getFullYear()}, Built with
           {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+          <a href="https://www.gatsbyjs.org" className='black'>Gatsby</a> <span>by Aniket Chauhan</span>
         </footer>
       </div>
     )
