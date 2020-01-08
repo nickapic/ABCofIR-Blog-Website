@@ -27,6 +27,7 @@ class Layout extends React.Component {
               boxShadow: `none`,
               textDecoration: `none`,
               color: `inherit`,
+              fontFamily: `Poppins, sans-serif`
             }}
             to={`/`}
           >
@@ -40,7 +41,7 @@ class Layout extends React.Component {
           height: `100%`
         }}>
           <Link to='/about' className='nav-link'>About</Link>
-          <Link to='/articles' className='nav-link'>Articles</Link>
+          
         </div>
         </div>
       )
