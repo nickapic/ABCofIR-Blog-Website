@@ -2,10 +2,12 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 
 
+import '../style.css'
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm } from "../utils/typography"
+import HeroSection from "../components/hero-section"
 
 class BlogIndex extends React.Component {
   render() {
@@ -16,34 +18,49 @@ class BlogIndex extends React.Component {
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO title="All posts" />
-      
+        
+        <HeroSection/>
+
         {posts.map(({ node }) => {
           const title = node.frontmatter.title || node.fields.slug
           return (
-            <article key={node.fields.slug}>
-              <header>
-                <h3
+            <div className='blog-card-box'>
+              <article className='blog-card' key={node.fields.slug}>
+                <header>
+                  <h3
+                    style={{
+                      fontSize:`1.7rem`,
+                      fontWeight:`700`,
+                      marginTop:`1rem`,
+                      marginBottom: `1rem`,
+                      fontFamily: `Poppins, sans-serif`,
+                    }}
+                  >  
+                
+                    <Link style={{ boxShadow: `none`  ,color:"inherit", fontFamily: `Poppins, sans-serif`}} to={node.fields.slug}>
+                      {title}
+                    </Link>
+                  </h3>
+                  <small style={{
+                      fontSize:`1.1rem`,
+                      fontFamily: `Poppins, sans-serif`,
+                    }}>  {node.frontmatter.date}</small>
+                </header>
+                <section>
+                  <p 
                   style={{
-                    marginBottom: rhythm(1 / 4),
-                    fontFamily: `Montserrat, sans-serif`,
+                    marginTop: `1rem`,
+                    marginBottom: `1rem`,
+                    fontSize:`1.3rem`,
+                    fontFamily: `Poppins, sans-serif`,
                   }}
-                >
-                    
-                    
-                  <Link style={{ boxShadow: `none`  ,color:"black"}} to={node.fields.slug}>
-                    {title}
-                  </Link>
-                </h3>
-                <small>{node.frontmatter.date}</small>
-              </header>
-              <section>
-                <p
-                  dangerouslySetInnerHTML={{
-                    __html: node.frontmatter.description || node.excerpt,
-                  }}
-                />
-              </section>
-            </article>
+                    dangerouslySetInnerHTML={{
+                      __html: node.frontmatter.description || node.excerpt,
+                    }}
+                  />
+                </section>
+              </article>
+            </div>
           )
         })}
       </Layout>

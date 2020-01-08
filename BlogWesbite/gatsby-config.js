@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
     title: `ABCofIR`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    author: `Jimena Hernantes`,
+    description: `A blog about everything related to the subject of International Relations.Its operated by students of International Relations in Spain`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
   },
   plugins: [

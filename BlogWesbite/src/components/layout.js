@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
+import '../style.css'
 
-import { rhythm, scale } from "../utils/typography"
 
 class Layout extends React.Component {
   render() {
@@ -11,11 +11,15 @@ class Layout extends React.Component {
 
     if (location.pathname === rootPath) {
       header = (
-        <h1
+       <div className='header'> 
+         <h1
           style={{
-            ...scale(1.5),
-            marginBottom: rhythm(1.5),
+            fontSize:`rem`,
+            marginBottom: 0,
+            display:`flex`,
+            alignItems:`center`,
             marginTop: 0,
+            fontFamily: `Poppins, sans-serif`
           }}
         >
           <Link
@@ -29,12 +33,21 @@ class Layout extends React.Component {
             {title}
           </Link>
         </h1>
+        <div className='nav-bar' style={{
+          display: `flex`,
+          alignItems: `center`,
+          textDecoration:`none`,
+          height: `100%`
+        }}>
+          <Link to='/about' className='nav-link'>About</Link>
+          <Link to='/articles' className='nav-link'>Articles</Link>
+        </div>
+        </div>
       )
     } else {
       header = (
         <h3
           style={{
-            fontFamily: `Montserrat, sans-serif`,
             marginTop: 0,
           }}
         >
@@ -43,8 +56,7 @@ class Layout extends React.Component {
               boxShadow: `none`,
               textDecoration: `none`,
               color: `inherit`,
-              fontFamily: `Montserrat, sans-serif`,
-
+              fontFamily: `Poppins, sans-serif`,
             }}
             to={`/`}
           >
@@ -56,10 +68,10 @@ class Layout extends React.Component {
     return (
       <div
         style={{
-          marginLeft: `auto`,
-          marginRight: `auto`,
-          maxWidth: rhythm(24),
-          padding: `${rhythm(1.5)} ${rhythm(3 / 4)}`,
+          marginLeft: `15rem`,
+          marginRight: `3rem`,
+          maxWidth:  `90%`,
+          padding: `2rem 5rem `,
         }}
       >
         <header>{header}</header>

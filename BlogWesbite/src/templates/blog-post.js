@@ -1,7 +1,6 @@
 import React from "react"
 import { Link, graphql } from "gatsby"
-
-
+import '../style.css'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { rhythm, scale } from "../utils/typography"
@@ -22,26 +21,25 @@ class BlogPostTemplate extends React.Component {
           <header>
             <h1
               style={{
-                marginTop: rhythm(1),
-                marginBottom: 0,
-                fontFamily: `Montserrat, sans-serif`,
+                marginTop: `1rem`,
+                marginBottom: `1rem`,
+                fontFamily: `Poppins, sans-serif`,
               }}
             >
               {post.frontmatter.title}
             </h1>
             <p
               style={{
-                ...scale(-1 / 5),
                 display: `block`,
-                marginBottom: rhythm(1),
-                fontFamily: `Montserrat, sans-serif`,
+                marginBottom: `0.7rem`,
+                fontFamily: `Poppins, sans-serif`,
               }}
             >
               {post.frontmatter.date}
             </p>
             <p
               style={{
-                fontFamily: `Montserrat, sans-serif`,
+                fontFamily: `Poppins, sans-serif`,
                 display: `block`,
                 marginBottom: '1rem',
               }}
@@ -49,7 +47,7 @@ class BlogPostTemplate extends React.Component {
               {post.frontmatter.author}
             </p>
           </header>
-          <section dangerouslySetInnerHTML={{ __html: post.html }} />
+          <section className='main-post' dangerouslySetInnerHTML={{ __html: post.html }} />
           <hr
             style={{
               marginBottom: rhythm(1),

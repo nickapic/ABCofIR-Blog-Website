@@ -1,20 +1,15 @@
 ---
-title: 'Conflict: Overview, definition, studies.'
-date: "2015-05-28T22:40:32.169Z"
+title: 'Test Experiment boi'
+date: "2020-01-07T22:40:32.169Z"
 author: "Jimena Hernantes"
-description: This is a custom description for SEO and Open Graph purposes, rather than the default generated excerpt. Simply add a description field to the frontmatter.
+description: "The topic of conflicts is a very broad and diverse theme. It will be a main matter in this blog, in which diverse theories, ideas, as well as specific conflicts that have happened in the past and are currently influential will be investigated and interpreted. This article encompasses a very basic definition, key for the next articles, and a brief introduction to main areas of studies."
 ---
 
 Conflict as a concept allows many definitions onto it, and it is a terminology that needs to be clearly defined in the context in which it is being used.
-
 In this particular situation we are going to focus on conflict as an object of social studies, because all branches of social science have something to say about conflict.
-
 What are Social Sciences?
-
 Social sciences are a group of academic disciplines dedicated to examining society. This branch of science studies how people interact with each other, behave, develop as a culture, and influence the world. 
-
 Among these branches we can find sociology, psychology, anthropology, economy, law, and communication. 
-
 Concerning sociology, Social conflict is the struggle for agency or power in society. Social conflict occurs when two or more actors oppose each other in social interaction, each exerts social power with reciprocity in an effort to achieve incompatible goals whilst preventing the other from attaining their own.
 If we focus on psychology, conflict is reserved for the individual and the
 tensions with others and self, and if we focus on anthropology, the essence
