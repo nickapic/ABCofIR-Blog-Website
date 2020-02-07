@@ -3,7 +3,7 @@ module.exports = {
     title: `ABCofIR`,
     author: `Jimena Hernantes`,
     description: `A blog about everything related to the subject of International Relations.Its operated by students of International Relations in Spain`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    siteUrl: `http://www.abofir.com/`,
   },
   plugins: [
     {

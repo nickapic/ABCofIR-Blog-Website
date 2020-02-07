@@ -1,5 +1,5 @@
 ---
-title: 'Test Blog 2'
+title: "Conflict: Overview, definition, studies."
 date: "2020-01-07T22:40:32.169Z"
 author: "Jimena Hernantes"
 description: "The topic of conflicts is a very broad and diverse theme. It will be a main matter in this blog, in which diverse theories, ideas, as well as specific conflicts that have happened in the past and are currently influential will be investigated and interpreted. This article encompasses a very basic definition, key for the next articles, and a brief introduction to main areas of studies."
@@ -11,8 +11,8 @@ In this particular situation we are going to focus on conflict as an object of s
 
 What are Social Sciences?
 
-Social sciences are a group of academic disciplines dedicated to examining society. This branch of science studies how people interact with each other, behave, develop as a culture, and influence the world. 
-Among these branches we can find sociology, psychology, anthropology, economy, law, and communication. 
+Social sciences are a group of academic disciplines dedicated to examining society. This branch of science studies how people interact with each other, behave, develop as a culture, and influence the world.
+Among these branches we can find sociology, psychology, anthropology, economy, law, and communication.
 Concerning sociology, Social conflict is the struggle for agency or power in society. Social conflict occurs when two or more actors oppose each other in social interaction, each exerts social power with reciprocity in an effort to achieve incompatible goals whilst preventing the other from attaining their own.
 If we focus on psychology, conflict is reserved for the individual and the
 tensions with others and self, and if we focus on anthropology, the essence
@@ -33,7 +33,7 @@ Now, taking a look at conflict studies, they are considered a multi-level
 type of studies due to the fact that they entail relations between individuals,
 neighbours, ethnic groups, organizations, states, regions, and civilizations.
 It identifies and analyses violent and nonviolent behaviours as well as the
-structural mechanisms attending conflicts (including social conflicts), with 
+structural mechanisms attending conflicts (including social conflicts), with
 a view towards understanding those processes which lead to a more
 desirable human condition. (Maire A. Dugan and Dennis P. Carey ,
 “Towards a Definition of Peace Studies,” in Key Issues of Peace Research:
