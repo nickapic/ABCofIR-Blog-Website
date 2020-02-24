@@ -20,14 +20,14 @@ const HeroSection = () => {
           brief introduction to main areas of studies.
         </p>
 
-        <Link to="/my-second-post/" className="read-more">
+        <Link to="/ConflictOverviewDefination" className="read-more">
           Read More
         </Link>
       </div>
       <div className="image-box">
         <img
           src={Hero}
-          alt="The hero image of the website"
+          alt="The hero section of the website"
           className="heroimg"
         />
       </div>
