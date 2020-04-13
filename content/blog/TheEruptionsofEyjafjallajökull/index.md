@@ -1,11 +1,9 @@
 ---
-title: "International Crisis: What do we know?"
+title: "The eruptions of Eyjafjallajökull in 2010"
 date: "2020-02-23T22:40:32.169Z"
 author: "Jimena Hernantes"
 description: "When analyzing current crises it is always important to have a clear understanding of the situation, only possible when finding real and unbiased data. However, the lessons learned from this security or safety challenge must not be left out, or the analysis will be incomplete. That is why the method Explore-Understand-Do is one of the most used. Here is a case using that simple method."
 ---
-
-The eruptions of Eyjafjallajökull in 2010
 
 Exploration
 
