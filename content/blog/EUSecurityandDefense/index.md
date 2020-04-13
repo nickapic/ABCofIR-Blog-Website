@@ -1,6 +1,6 @@
 ---
 title: "The European Union: security and Defence"
-date: "2020-02-15T22:40:32.169Z"
+date: "2020-02-16T22:40:32.169Z"
 author: "Jimena Hernantes"
 description: "Security and defence is the next stage to ameliorate and improve, following this path the changes will be remarkable and a more profound unity and understanding between states will bring us closer. This topic is very necessary nowadays due to the different challenges and threats that this world faces and the European Union needs to be prepared to work with others, help and protect its citizens, in order to create a more peaceful and secure world for all.
 "

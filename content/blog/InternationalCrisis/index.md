@@ -1,6 +1,6 @@
 ---
 title: "International Crisis: What do we know?"
-date: "2020-02-10T22:40:32.169Z"
+date: "2020-02-09T22:40:32.169Z"
 author: "Jimena Hernantes"
 description: "This article comprises the introduction of what an international crisis is, its context, and their process. It will be followed by other theoretical explanations and examples in order to achieve an empiric perspective that helps us understand such broad topic."
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Conflict: Overview, definition, studies."
-date: "2020-01-07T22:40:32.169Z"
+date: "2020-02-02T22:40:32.169Z"
 author: "Jimena Hernantes"
 description: "The topic of conflicts is a very broad and diverse theme. It will be a main matter in this blog, in which diverse theories, ideas, as well as specific conflicts that have happened in the past and are currently influential will be investigated and interpreted. This article encompasses a very basic definition, key for the next articles, and a brief introduction to main areas of studies."
 ---
