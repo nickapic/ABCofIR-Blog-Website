@@ -21,9 +21,14 @@ class BlogPostTemplate extends React.Component {
           <header>
             <h1
               style={{
+<<<<<<< HEAD:src/templates/blog-post.js
                 marginTop: `1rem`,
                 marginBottom: `1rem`,
                 fontFamily: `Poppins, sans-serif`,
+=======
+                marginTop: rhythm(1),
+                marginBottom: 0,
+>>>>>>> parent of 7cc83fc... Small Changes:BlogWesbite/src/templates/blog-post.js
               }}
             >
               {post.frontmatter.title}
@@ -31,15 +36,23 @@ class BlogPostTemplate extends React.Component {
             <p
               style={{
                 display: `block`,
+<<<<<<< HEAD:src/templates/blog-post.js
                 marginBottom: `0.7rem`,
                 fontFamily: `Poppins, sans-serif`,
+=======
+                marginBottom: rhythm(1),
+>>>>>>> parent of 7cc83fc... Small Changes:BlogWesbite/src/templates/blog-post.js
               }}
             >
               {post.frontmatter.date}
             </p>
             <p
               style={{
+<<<<<<< HEAD:src/templates/blog-post.js
                 fontFamily: `Poppins, sans-serif`,
+=======
+                
+>>>>>>> parent of 7cc83fc... Small Changes:BlogWesbite/src/templates/blog-post.js
                 display: `block`,
                 marginBottom: '1rem',
               }}
@@ -50,11 +63,15 @@ class BlogPostTemplate extends React.Component {
           <section className='main-post' dangerouslySetInnerHTML={{ __html: post.html }} />
           <hr
             style={{
+<<<<<<< HEAD:src/templates/blog-post.js
               marginBottom: `5rem`
+=======
+              marginBottom: rhythm(1),
+>>>>>>> parent of 7cc83fc... Small Changes:BlogWesbite/src/templates/blog-post.js
             }}
           />
          
-        </article >
+        </article>
 
         <nav>
           <ul
