@@ -61,10 +61,7 @@ class Layout extends React.Component {
               boxShadow: `none`,
               textDecoration: `none`,
               color: `inherit`,
-<<<<<<< HEAD:src/components/layout.js
               fontFamily: `Poppins, sans-serif`,
-=======
->>>>>>> parent of 7cc83fc... Small Changes:BlogWesbite/src/components/layout.js
             }}
             to={`/`}
           >
