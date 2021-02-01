@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `ABCofIR`,
+    title: `Blog`,
     author: `Jimena Hernantes`,
-    description: `A blog about everything related to the subject of International Relations.Its operated by students of International Relations in Spain`,
+    description: `A blog about everything related to Cyber Security and blogs about my knowledge in the topic`,
     siteUrl: `http://www.abofir.com/`,
   },
   plugins: [
